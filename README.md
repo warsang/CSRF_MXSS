@@ -1,4 +1,4 @@
-##CSRF + MXSS
+# CSRF + MXSS
 
 This is code associated to an XSS I found during a pentest mission. The vulnerable application had an XSS input field which filtered the word script (server side).
 Moreover the two vulnerable XSS fields had a length check (server side) which made writting an exploit quite difficult.
